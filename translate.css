@@ -1,0 +1,137 @@
+body{
+	background-color: #141d26;
+	color: #8899a6;
+	font-size: 18px;
+	font-family: Georgia;
+}
+
+input{
+	font-size: 18px;
+}
+
+button{
+	padding: 4px 15px;
+	background-color: #666;
+	border: 1px solid #222;
+	transition: all .35s ease;
+}
+
+button:hover{
+	background-color: #444;
+	cursor: pointer;
+
+}
+
+button:focus{
+	outline: none;
+}
+
+label{
+	margin-right: 8px;
+}
+
+input, textarea{
+	background-color: #333333;
+	border: 1px solid #666;
+	color: #8899a6;
+}
+
+input:focus, textarea:focus{
+	border: 1px solid #222;
+	outline: none;
+}
+
+select:focus{
+	border: 1px solid #666;
+	outline: none;
+}
+
+#startbutt{
+	margin-top: 30px;
+}
+
+#ruword{
+	color: #ff4444;
+}
+
+#mistakes{
+	visibility: hidden;
+	border-collapse: collapse;
+}
+
+#mistakes, th,td,tr{
+	border: 1px solid #dddddd;
+	padding: 1px 2px;
+}
+
+th,td{
+	padding: 2px 6px;
+}
+
+#wordsArea{
+	resize: none;
+	width: 400px;
+
+}
+
+#addWords{
+	float: right;
+}
+
+#main{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	display: flex;
+}
+
+#numberOfWords{
+	background-color: #111111;
+	color: #8899a6;
+	font-size: 14px;
+}
+
+.numbOfWords{
+	padding-top: 16px;
+	margin-right: 8px;
+}
+
+#main div{
+	dislay: inline-block;
+}
+
+#main table{
+	margin-left: 20px;
+}
+
+table tr th,td{
+	padding: 2px 2px;
+}
+
+.addWord{
+	margin-right: 50px;
+	margin-top: 10px;
+	display: flex;
+	float: right;
+}
+.addWord *{
+	display: block;
+}
+
+.addOneWord{
+	margin-right: 100px;
+}
+
+.addOneWord div{
+	margin-top: 2px;
+	float: left;
+	display: table;
+}
+
+.addOneWord button{
+	margin-top: 20px;
+}
+
+.addSomeWords button{
+	margin-top: 20px;
+}

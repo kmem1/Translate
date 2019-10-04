@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="translate.css">
+	</head>
+	<body>
+
+		<div id='main'>
+
+			<div>
+				<div class="numbOfWords">
+					<label>Number of words:</label>
+					<select name="" id='numberOfWords'>
+						<option value="20">20</option>
+						<option value="30">30</option>
+						<option value="40">40</option>
+						<option value="40">50</option>
+						<option value="All">All</option>
+					</select>
+				</div>
+				<p>Word: <span id="ruword">Press start</span></p>
+				<label for="translate"><span>English</span></label><input id="translate" type="text" disabled></br>
+				<button id='startbutt'>Start</button>
+			</div>
+
+			<div>
+				<table id='mistakes'>
+
+					<tr><th>№</th><th>English</th><th>Russian</th><th>Mistake</th></tr>
+
+				</table>
+			</div>
+
+		</div>
+
+		<div class='addWord'>
+
+			<div class='addOneWord'>
+				<label for="translate"><span>Russian</span></label><input id="addruword" type="text">
+				<label for="translate"><span>English</span></label><input id="addenword" type="text">
+				<button id='addWordButton'>Add Word</button>
+			</div>
+
+			<div class='addSomeWords'>
+				<textarea id='wordsArea' name="addword" rows="8" cols="80"></textarea>
+				<button id='addWords'>Add Words</button>
+			</div>
+
+		</div>
+	</body>
+	<script src="translate.js"></script>
+</html>
